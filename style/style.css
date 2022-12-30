@@ -12,7 +12,7 @@ body {
   background-color: #7a86b6;
   
 }
-
+/*? index-page */
 /* header */
 nav.title {
   display: flex;
@@ -114,13 +114,13 @@ footer p{
   margin-bottom: 0.5rem;
 }
 
-/*? about-html */
+/*? about-page */
 
 main{
   background-color: white;
   display:flex ;
   padding: 1.4rem 2rem;
-  gap: 3rem;
+  gap: 4rem;
   height:415px
 }
 
@@ -130,4 +130,36 @@ padding: 1rem;
 }
 main p{
   margin: 0.6rem 0rem;
+}
+
+/*? services-page */
+main.services{
+  font-size: 13px;
+justify-content: space-between;
+
+}
+main.services div nav{
+  background-color: rgba(128, 128, 128, 0.209);
+  margin-bottom: 0.5rem;
+  padding:0.6rem 1rem;
+ width: 50rem;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: white;
+
+  
+}
+form input{
+  width: 20rem;
+  padding: 0.3rem;
+}
+form button{
+  background-color: coral;
+  border: none;
+  width: 5rem;
+  padding: 0.3rem;
+  color: white;
 }
