@@ -11,9 +11,7 @@ body {
   width: 100vw;
   max-width: 1440px;
   height: 100vh;
-
   font-size: 13px;
-  border: 2px solid blue;
   position: relative;
 }
 /*? index-page */
